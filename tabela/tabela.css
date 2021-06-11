@@ -1,0 +1,533 @@
+body{
+    background-color: rgb(31, 30, 30);
+}
+div#H{
+    margin: auto;}
+header{
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    border-radius: 6px;
+    
+}
+
+section{background-color: gray;
+height: 400px;
+width: 100%;
+border-radius: 7px;
+text-align: center;
+
+}
+
+footer{
+    color: white;
+    font: normal 10pt arial;
+    text-align: center;
+}
+
+
+
+div#hidro{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(214, 250, 132);
+    border-radius: 5px;
+    
+}
+div#gases_nobres{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(133, 162, 241);
+    border-radius: 5px;
+}
+div#metais_alca{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(255, 182, 98);
+    border-radius: 5px;
+    ;
+}
+div#metais_alca_t{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(239, 255, 98);
+    border-radius: 5px;
+    ;
+}
+div#nmetais{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(100, 240, 58);
+    border-radius: 5px;
+    
+}
+div#halogenios{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(242, 120, 247);
+    border-radius: 5px;
+    ;
+}
+div#semimetais{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(55, 98, 216);
+    border-radius: 5px;
+}
+h5#txt{
+    margin-left: 40px;
+    text-align:left;
+}
+button#h{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(214, 250, 132);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+button#He{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(133, 162, 241);
+    border-radius: 5px;
+    margin-left: 705px;
+    
+    text-align: center;
+
+}
+button#Li{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(255, 182, 98);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}
+button#Be{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(239, 255, 98);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#B{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(55, 98, 216);
+    border-radius: 5px;
+    margin-left: 440px;
+    
+    text-align: center;
+}
+button#C{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(100, 240, 58);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+button#N{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(100, 240, 58);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+button#O{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(100, 240, 58);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+button#O{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(100, 240, 58);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}button#F{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(242, 120, 247);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}
+button#Ne{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(133, 162, 241);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}
+button#Na{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(255, 182, 98);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}
+button#Mg{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(239, 255, 98);
+    border-radius:5px;
+    margin: auto;
+   
+    text-align: center;
+}
+button#Al{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(111, 116, 128);
+    border-radius: 5px;
+    margin-left: 440px;
+    
+    text-align: center;
+}
+button#Si{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(55, 98, 216);
+    border-radius: 5px;
+    
+    
+    text-align: center;
+}
+button#P{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(100, 240, 58);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+button#S{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(100, 240, 58);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+button#Cl{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(242, 120, 247);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}
+button#Ar{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(133, 162, 241);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+button#k{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(255, 182, 98);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}
+button#Ca{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(239, 255, 98);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Sc{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Ti{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#V{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Cr{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Mn{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Fe{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Co{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Ni{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Cu{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Zn{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Ga{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(111, 116, 128);
+    border-radius: 5px;
+    
+    
+    text-align: center;
+}
+button#Ge{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(55, 98, 216);
+    border-radius: 5px;
+    
+    
+    text-align: center;
+}
+button#As{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(55, 98, 216);
+    border-radius: 5px;
+    
+    
+    text-align: center;
+}
+button#Se{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(100, 240, 58);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+button#Br{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(242, 120, 247);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}
+button#Xr{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(133, 162, 241);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+
+button#Rb{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(255, 182, 98);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}
+button#Sr{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(239, 255, 98);
+    border-radius:5px;
+   
+    text-align: center;
+}button#Y{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Zr{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Nb{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Mo{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Tc{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Ru{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Rh{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Pd{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Ag{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#Cd{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(224, 101, 101);
+    border-radius:5px;
+   
+    text-align: center;
+}
+button#In{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(111, 116, 128);
+    border-radius: 5px;
+    
+    
+    text-align: center;
+}
+button#Sn{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(111, 116, 128);
+    border-radius: 5px;
+    
+    
+    text-align: center;
+}
+button#Sb{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(55, 98, 216);
+    border-radius: 5px;
+    
+    
+    text-align: center;
+}
+button#Te{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(55, 98, 216);
+    border-radius: 5px;
+    
+    
+    text-align: center;
+}
+button#I{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(242, 120, 247);
+    border-radius: 5px;
+    ;
+    text-align: center;
+}
+button#Xe{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(133, 162, 241);
+    border-radius: 5px;
+    
+    text-align: center;
+}
+
