@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitrogênio</title>
+    <link rel="sortcut icon" href="nitrogenio.png" type="image/x-icon" />
+</head>
+<style>
+    body{
+        background-color:rgb(100, 240, 58);
+        font: normal 15pt arial;
+    }
+    div#fundo{
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        text-align: center;
+        margin-left: 425px;
+        border-radius: 20px;
+    }
+    h1#titulo{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+        font: normal 10pt arial;
+    }
+    section{
+        margin-top: 80px;
+    }
+    input#a{
+        background-color:rgb(100, 240, 58);
+        width: 100px;
+        border-radius: 10px;
+        border-color: rgb(100, 240, 58);
+    }
+    input#v{
+        background-color: gray;
+        border-color: gray;
+    }
+    input#p{
+        width: 100px;
+        border-radius: 10px;
+        background-color:rgb(100, 240, 58);
+        border-color:rgb(100, 240, 58);
+    }
+</style>
+<body>
+    <header>
+
+    </header>
+    <section><div id="fundo">
+        <h1 id="titulo">Nitrogênio</h1>
+        <div id="imagem"><img src="nitrogenio.png" alt="estou aqui"></div>
+        <p id="p">Número atômico: 7</p>
+        <p id="p1">Massa atômica: 14.007</p>
+        <p id="p2">Configuração atômica: 1s²2s²2p³</p>
+        <input type="button" value="Carbono" id="a" onclick="clicou2()">
+        <input type="button" value="voltar" id="v" onclick="clicou()">
+        <input type="button" value="Oxigênio" id="p" onclick="clicou1()">
+    </div></section>
+    <footer>&copy;Dogrita</footer>
+    <script>
+        var b = window.document.getElementById("v")
+        function clicou(){
+            window.location.href = 'tabela.html'
+        }
+        var p = window.document.getElementById("p")
+        function clicou1(){
+            window.location.href = 'oxigenio.html'
+        }
+        var a = window.document.getElementById("a")
+        function clicou2(){
+            window.location.href = 'carbono.html'
+        }
+       
+    </script>
+
+
+</body>
+</html>

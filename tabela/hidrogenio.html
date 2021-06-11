@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidrogênio</title>
+    <link rel="sortcut icon" href="hidrogenio.png" type="image/x-icon" />
+</head>
+<style>
+    body{
+        background-color: rgb(214, 250, 132);
+        font: normal 15pt arial;
+    }
+    div#fundo{
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        text-align: center;
+        margin-left: 425px;
+        border-radius: 20px;
+    }
+    h1#titulo{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+        font: normal 10pt arial;
+    }
+    section{
+        margin-top: 80px;
+    }
+    input#v{
+        background-color: gray;
+        border-color: gray;
+    }
+    input#p{
+        background-color:rgb(133, 162, 241);
+        width: 100px;
+        border-radius: 10px;
+        border-color: rgb(133, 162, 241);
+    }
+    
+</style>
+<body>
+    <header>
+
+    </header>
+    <section><div id="fundo">
+        <h1 id="titulo">Hidrogênio</h1>
+        <div id="imagem"><img src="hidrogenio.png" alt="estou aqui"></div>
+        <p id="p">Número atômico: 1</p>
+        <p id="p1">Massa atômica: 1.008</p>
+        <p id="p2">Configuração atômica: 1s¹</p>
+        <input type="button" value="voltar" id="v" onclick="clicou()">
+        <input type="button" value="próximo" id="p" onclick="clicou1()">
+    </div></section>
+    <footer>&copy;Dogrita</footer>
+    <script>
+        var b = window.document.getElementById("v")
+        function clicou(){
+            window.location.href = 'tabela.html'
+        }
+        var p = window.document.getElementById("p")
+        function clicou1(){
+            window.location.href = 'helio.html'
+        }
+    </script>
+
+</body>
+</html>

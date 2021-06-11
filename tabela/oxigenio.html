@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxigênio</title>
+    <link rel="sortcut icon" href="oxigenio.png" type="image/x-icon" />
+</head>
+<style>
+    body{
+        background-color:rgb(100, 240, 58);
+        font: normal 15pt arial;
+    }
+    div#fundo{
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        text-align: center;
+        margin-left: 425px;
+        border-radius: 20px;
+    }
+    h1#titulo{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+        font: normal 10pt arial;
+    }
+    section{
+        margin-top: 80px;
+    }
+    input#a{
+        background-color:rgb(100, 240, 58);
+        width: 100px;
+        border-radius: 10px;
+        border-color: rgb(100, 240, 58);
+    }
+    input#v{
+        background-color: gray;
+        border-color: gray;
+    }
+    input#p{
+        width: 100px;
+        border-radius: 10px;
+        background-color:rgb(242, 120, 247);
+        border-color:rgb(242, 120, 247);
+    }
+</style>
+<body>
+    <header>
+
+    </header>
+    <section><div id="fundo">
+        <h1 id="titulo">Oxigênio</h1>
+        <div id="imagem"><img src="oxigenio.png"estou aqui"></div>
+        <p id="p">Número atômico: 8</p>
+        <p id="p1">Massa atômica: 15.999</p>
+        <p id="p2">Configuração atômica: 1s²2s²2p4</p>
+        <input type="button" value="Nitrogênio" id="a" onclick="clicou2()">
+        <input type="button" value="voltar" id="v" onclick="clicou()">
+        <input type="button" value="Flúor" id="p" onclick="clicou1()">
+    </div></section>
+    <footer>&copy;Dogrita</footer>
+    <script>
+        var b = window.document.getElementById("v")
+        function clicou(){
+            window.location.href = 'tabela.html'
+        }
+        var p = window.document.getElementById("p")
+        function clicou1(){
+            window.location.href = 'fluor.html'
+        }
+        var a = window.document.getElementById("a")
+        function clicou2(){
+            window.location.href = 'nitrogenio.hmtl'
+        }
+
+    </script>
+
+
+</body>
+</html>
