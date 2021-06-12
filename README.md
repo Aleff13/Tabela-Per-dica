@@ -1,2 +1,2 @@
 # Tabela-Peródica
- primeiro repositório versionado
+uma tabela periódica simples e minimalista.
