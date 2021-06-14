@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Periodic table</title>
-    <link rel="stylesheet" href="tp.css">
+    <link rel="stylesheet" href="tabela.css">
     <link rel="sortcut icon" href="carbono.png" type="image/x-icon" />
 </head>
 <body background-image="fundo.png">
@@ -109,20 +109,20 @@
         </div>
             <div id="caracteristicas">
                 <p id="conteudo">
-                    <input type="button" value="metais alcalinos" id="metais_alca">
+                    <input type="button" value="metais alcalinos" id="metais_alca" onclick="clicouma()" onmousemove="passarma()" onmouseout="saiuma()">
                     <input type="button" value="metais alcalinos terrosos" id="metais_alca_t">
                     <input type="button" value='metais' id="metais">
                     <input type="button" value="semi metais" id='semimetais'>
                     <input type="button" value="ametais" id="nmetais">
                     <input type="button" value="halogenios" id="halogenios">
-                    <input type="button" value="gases nobres" id="gases_nobres">
+                    <input type="button" value="gases nobres" id="gases_nobres" onclick="clicougn()" onmousemove="passargn()" onmouseout="saiugn()">
                 </p>
 
             </div>
             
         </div>
         
-        <script src="tp.js"></script>
+        <script src="tabela.js"></script>
 
     </section>
     <footer>&copy; Olaff</footer>

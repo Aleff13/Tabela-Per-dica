@@ -34,14 +34,50 @@ var as = window.document.getElementById('As')
 var se = window.document.getElementById('Se')
 var br = window.document.getElementById('Br')
 var xr = window.document.getElementById('Xr')
+var metal = window.document.getElementById('metais_alca')
+var gases = window.document.getElementById("gases_nobres")
 
+//div da esquerda
+function clicouh(){
+    window.location.href='hidrogenio.html'
+}
+function clicouma(){
+    window.location.href='metaisalc.html'
+}
+function passarma(){
+    metal.style.width='130px'
+    metal.style.height='50px'
+}
+function saiuma(){
+    metal.style.width='110px'
+    metal.style.height='30px'
+}
 
+//fecha div
+
+//botoes das propriedas
+function clicouma(){
+    window.location.href="metaisalc.html"
+}
+function clicougn(){
+    window.location.href="gasesnobres.html"
+}
+function passargn(){
+    gases.style.width="100px"
+    gases.style.height="50px"
+}
+function saiugn(){
+    gases.style.width='100px'
+    gases.style.height='30px'
+}
+//acaba botoes
 function passar() {
     h.style.width="100px"
     h.style.height="50px"
     h.innerText='Hidrogênio'
-
 }
+
+
 function saiu(){
     h.style.width="40px"
     h.style.height="30px"
